@@ -1,0 +1,170 @@
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.caja1{
+
+        margin: 5rem;
+        padding: 5rem;
+        text-align: center;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        color:black ;
+        font-size: xx-large;
+
+}
+h2{
+    padding: 10px;
+border: 5px;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(32, 34, 29);
+    font-size: large;
+    
+}
+
+header{
+
+   
+    text-align:center;
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    background-color: aliceblue;
+
+
+
+  
+
+}
+
+.caja1{
+    background-image: url(../img/mapa.jpg);
+
+}
+
+
+
+
+body{
+
+    font-family:fantasy;
+
+    margin: 0%;
+
+
+
+
+}
+
+
+footer{
+    padding: 1rem;
+    text-align: center;
+}
+/*Footer*/
+
+.contenedorFooter{
+
+    background-image: linear-gradient(rgb(113, 154, 173),rgb(185, 213, 214));
+    color: rgb(92, 48, 12);
+
+    width: 100%;
+
+    height: auto;
+
+    padding: 1rem;
+    margin: 1rem;
+
+   
+
+}
+
+.itemFooter{
+
+    margin-bottom: 1rem;
+
+}
+
+.itemFooter h4{
+
+    font-size: 1.5rem;
+
+}
+
+.itemFooter a{
+
+    
+
+    text-decoration: solid;
+
+    color: white;
+
+    display: block;
+
+    margin-top: 1rem;
+
+    
+
+
+
+}
+
+.itemFooter a:hover{
+
+    color: rgb(218, 117, 24);
+
+}
+
+
+
+@media screen and (min-width: 576px){
+
+    .contenedorFooter{
+
+        display: grid;
+
+        grid-template-columns: repeat(3, 1fr);
+
+        
+
+        
+
+
+
+    }
+
+    .itemFooter{
+
+        border-right: 1px solid white;
+
+        padding: 0.75rem;
+
+    }
+
+    .itemFooter:last-of-type{
+
+        border-right: none;
+
+        
+
+    }
+
+}
+
+@media screen and (min-width:1280px){
+
+    body{
+
+        width: 90%;
+
+        max-width: 1400px;
+
+        margin: auto;
+
+    }
+
+}
